@@ -1,0 +1,8 @@
+<suite name="paramSuite">
+
+	<test name="paramTest">
+		<classes>
+			<class name="com.wd.ohrm.OhrmAddEmployee" />
+		</classes>
+	</test>
+</suite>
