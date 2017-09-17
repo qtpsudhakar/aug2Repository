@@ -17,9 +17,12 @@ public class OhrmAddEmployee {
 	public void OpenApplication() {
 		System.out.println("first change");
 		System.out.println("second change");
+<<<<<<< master
 		System.out.println("third change");
 		System.out.println("4th change");
 		
+=======
+>>>>>>> a40be41 3 rd update add emp
 		System.setProperty("webdriver.chrome.driver", "F:\\SeleniumSoftware\\BrowserDrivers\\chromedriver.exe");
 		driver = new ChromeDriver();
 		//Maximize browser
