@@ -16,6 +16,7 @@ public class OhrmAddEmployee {
 	@BeforeClass
 	public void OpenApplication() {
 		System.out.println("first change");
+		System.out.println("second change");
 		System.setProperty("webdriver.chrome.driver", "F:\\SeleniumSoftware\\BrowserDrivers\\chromedriver.exe");
 		driver = new ChromeDriver();
 		//Maximize browser
